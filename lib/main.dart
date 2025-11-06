@@ -38,8 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
       if (_counter > 10) {
         _counter = 0;
-      }
-      if (_counter % 5 == 0 && _counter != 0) {
+      } else if (_counter == 5) {
         _fiveCount++;
       }
     });
